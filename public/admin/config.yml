@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  path: Ivan-Dosev/nextjs-netlify-blog-template3
   branch: master
 media_folder: public/images
 public_folder: /images
