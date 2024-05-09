@@ -50,18 +50,20 @@ export default function Index() {
           letter-spacing: 0.05em;
         }
         .launch-button {
-          display: block;
+          display: inline-block;
           margin: 20px auto;
-          padding: 8px 16px; 
-          border: 3px solid black; 
-          border-radius: 10px; 
+          padding: 12px 18px;
+          border: 3px solid black;
+          border-radius: 10px;
           color: black;
           background-color: white;
           text-align: center;
           cursor: pointer;
-          font-size: 1rem; 
+          font-size: 1rem;
           font-weight: bold;
           text-decoration: none;
+          width: auto; 
+          max-width: 250px;
         }
         .launch-button:hover {
           background-color: #f8f8f8;
