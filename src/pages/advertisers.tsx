@@ -14,7 +14,6 @@ export default function Advertisers() {
         <div>
           <h1>Advertisers</h1>
           <p>Here is some information about the role of advertisers within our platform and their benefits.</p>
-          <SocialList />
         </div>
       </div>
       <style jsx>{`

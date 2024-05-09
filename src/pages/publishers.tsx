@@ -14,7 +14,6 @@ export default function Publishers() {
         <div>
           <h1>Publishers</h1>
           <p>Here is some information about what publishers do and how they contribute to the ecosystem.</p>
-          <SocialList />
         </div>
       </div>
       <style jsx>{`
