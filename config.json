@@ -3,7 +3,13 @@
   "site_title": "GrowthMate",
   "site_description": "GrowthMate",
   "site_keywords": [
-    "GrowthMate"
+    "GrowthMate",
+    {
+      "keyword": "Netlify"
+    },
+    {
+      "keyword": "React"
+    }
   ],
   "posts_per_page": 5,
   "twitter_account": "@my-account",
