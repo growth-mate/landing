@@ -3,9 +3,7 @@
   "site_title": "Next.js Netlify Blog",
   "site_description": "Next.js blog template for Netlify",
   "site_keywords": [
-    {
-      "keyword": "Next.js"
-    },
+    "GrowthMate",
     {
       "keyword": "Netlify"
     },
