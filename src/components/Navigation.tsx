@@ -20,18 +20,18 @@ export default function Navigation() {
             <Link href="/posts">
               <a
                 className={
-                  router.pathname.startsWith("/posts") ? "active" : null
-                }
-              >
-                blog
-              </a>
+                  router.pathname.startsWith("/posts") ? "active" : null}>blog</a>
             </Link>
+            <li>
             <Link href="/">
               <a className={router.pathname.startsWith("/Publishers") ? "active" : null}>Publishers</a>
             </Link>
+            </li>
+            <li>
             <Link href="/">
               <a className={router.pathname.startsWith("/Advertisers") ? "active" : null}>Advertisers</a>
             </Link>
+            </li>
           </li>
         </ul>
         <style jsx>
