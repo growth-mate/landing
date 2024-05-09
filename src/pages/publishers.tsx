@@ -4,16 +4,16 @@ import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
 
-export default function Advertisers() {
+export default function Publishers() {
   return (
     <Layout>
-      <BasicMeta url={"/advertisers"} />
-      <OpenGraphMeta url={"/advertisers"} />
-      <TwitterCardMeta url={"/advertisers"} />
+      <BasicMeta url={"/publishers"} />
+      <OpenGraphMeta url={"/publishers"} />
+      <TwitterCardMeta url={"/publishers"} />
       <div className="container">
         <div>
-          <h1>Advertisers</h1>
-          <p>Here is some information about the role of advertisers within our platform and their benefits.</p>
+          <h1>Publishers</h1>
+          <p>Here is some information about what publishers do and how they contribute to the ecosystem.</p>
           <SocialList />
         </div>
       </div>
