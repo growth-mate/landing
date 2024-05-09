@@ -1,15 +1,9 @@
 {
   "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
   "site_title": "GrowthMate",
-  "site_description": "Next.js blog template for Netlify",
+  "site_description": "GrowthMate",
   "site_keywords": [
-    "GrowthMate",
-    {
-      "keyword": "Netlify"
-    },
-    {
-      "keyword": "React"
-    }
+    "GrowthMate"
   ],
   "posts_per_page": 5,
   "twitter_account": "@my-account",
