@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Link from 'next/link'; 
 
 export default function Index() {
   return (
@@ -17,6 +18,7 @@ export default function Index() {
           </h1>
           <span className="handle">@GrowthMate</span>
           <h2>We connect Web3 projects with the right users.</h2>
+          <Link href="/app"><a className="launch-button">Launch App</a></Link>
           <SocialList />
         </div>
       </div>
@@ -46,6 +48,21 @@ export default function Index() {
           margin-top: 0.275em;
           color: #9b9b9b;
           letter-spacing: 0.05em;
+        }
+        .launch-button {
+          display: block;
+          margin: 20px auto;
+          padding: 10px 20px;
+          border: 1px solid black;
+          color: black;
+          background-color: white;
+          text-align: center;
+          cursor: pointer;
+          font-size: 1.2rem;
+          text-decoration: none;
+        }
+        .launch-button:hover {
+          background-color: #f8f8f8;
         }
 
         @media (min-width: 769px) {

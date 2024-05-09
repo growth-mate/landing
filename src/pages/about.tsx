@@ -12,8 +12,8 @@ export default function About() {
       <TwitterCardMeta url={"/about"} />
       <div className="container">
         <div>
-          <h1>Advertisers</h1>
-          <p>Here is some information about the role of advertisers within our platform and their benefits.</p>
+          <h1>About</h1>
+          <p>Here is some information about us our values and info.</p>
         </div>
       </div>
       <style jsx>{`
