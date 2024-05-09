@@ -49,9 +49,6 @@ export default function Index() {
           color: #9b9b9b;
           letter-spacing: 0.05em;
         }
-        .button-container {
-          margin: 20px 0;
-        }
         .launch-button {
           display: inline-block;
           margin: 20px auto;
