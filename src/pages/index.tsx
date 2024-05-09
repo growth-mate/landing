@@ -25,15 +25,20 @@ export default function Index() {
       <style jsx>{`
         .container {
           display: flex;
-          flex-direction: column;
           align-items: center;
           justify-content: center;
           flex: 1 1 auto;
           padding: 0 1.5rem;
         }
-        .content {
-          text-align: center; /* Ensures text is centered */
-          width: 100%; /* Ensures the content block takes full width */
+        h1 {
+          font-size: 2.5rem;
+          margin: 0;
+          font-weight: 500;
+        }
+        h2 {
+          font-size: 1.75rem;
+          font-weight: 400;
+          line-height: 1.25;
         }
         .fancy {
           color: #15847d;
@@ -44,9 +49,12 @@ export default function Index() {
           color: #9b9b9b;
           letter-spacing: 0.05em;
         }
+        .button-container {
+          margin: 20px 0;
+        }
         .launch-button {
           display: inline-block;
-          margin: 20px 0;
+          margin: 20px auto;
           padding: 12px 18px;
           border: 3px solid black;
           border-radius: 10px;
@@ -57,12 +65,13 @@ export default function Index() {
           font-size: 1rem;
           font-weight: bold;
           text-decoration: none;
-          width: auto;
-          max-width: 250px; /* Adjust this value to fit your design */
+          width: auto; 
+          max-width: 250px;
         }
         .launch-button:hover {
           background-color: #f8f8f8;
         }
+
         @media (min-width: 769px) {
           h1 {
             font-size: 3rem;
