@@ -24,13 +24,13 @@ export default function Navigation() {
             </Link>
             </li>
             <li>
-            <Link href="/">
-              <a className={router.pathname.startsWith("/Publishers") ? "active" : null}>publishers</a>
+            <Link href="/publishers">
+             <a className={router.pathname.startsWith("/publishers") ? "active" : null}>publishers</a>
             </Link>
             </li>
             <li>
-            <Link href="/">
-              <a className={router.pathname.startsWith("/Advertisers") ? "active" : null}>advertisers</a>
+            <Link href="/advertisers">
+             <a className={router.pathname.startsWith("/advertisers") ? "active" : null}>advertisers</a>
             </Link>
             </li>
         </ul>
