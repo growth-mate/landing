@@ -52,13 +52,14 @@ export default function Index() {
         .launch-button {
           display: block;
           margin: 20px auto;
-          padding: 10px 20px;
-          border: 1px solid black;
+          padding: 8px 16px; 
+          border: 3px solid black; 
+          border-radius: 10px; 
           color: black;
           background-color: white;
           text-align: center;
           cursor: pointer;
-          font-size: 1.2rem;
+          font-size: 10rem; 
           text-decoration: none;
         }
         .launch-button:hover {
