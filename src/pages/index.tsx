@@ -59,7 +59,8 @@ export default function Index() {
           background-color: white;
           text-align: center;
           cursor: pointer;
-          font-size: 10rem; 
+          font-size: 1rem; 
+          font-weight: bold;
           text-decoration: none;
         }
         .launch-button:hover {
