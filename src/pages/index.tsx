@@ -18,7 +18,7 @@ export default function Index() {
           </h1>
           <span className="handle">@GrowthMate</span>
           <h2>We connect Web3 projects with the right users.</h2>
-          <Link href="/app" legacyBehavior><a className="launch-button">Launch App</a></Link>
+          <Link href="/" legacyBehavior><a className="launch-button">Launch App (comming soon)</a></Link>
           <SocialList />
         </div>
       </div>
