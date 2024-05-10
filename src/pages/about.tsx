@@ -13,7 +13,9 @@ export default function About() {
       <div className="container">
         <div>
           <h1>About</h1>
-          <p>Our goal is to redefine the paradigm of digital advertising within the Web3 ecosystem. We have developed an algorithm that can analyze transaction histories and asset holdings to serve ads that closely match users' current investments and interests.</p>
+          <p>Our goal is to redefine the paradigm of digital advertising within the Web3 ecosystem. <br/> 
+             We have developed an algorithm that can analyze transaction histories and asset holdings <br/> 
+             to serve ads that closely match users' current investments and interests.</p>
         </div>
       </div>
       <style jsx>{`

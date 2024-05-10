@@ -13,7 +13,8 @@ export default function Publishers() {
       <div className="container">
         <div>
           <h1>Publishers</h1>
-          <p>Publishers benefit from our targeted advertising approach by increasing the value of their ad space. More relevant ads boost interaction rates and allow higher premiums, improving both user retention and the overall attractiveness of their platforms to advertisers.</p>
+          <p>Publishers benefit from our targeted advertising approach by increasing the value of their ad space. 
+          <br/> More relevant ads boost interaction rates and allow higher premiums, improving both user retention <br/> and the overall attractiveness of their platforms to advertisers.</p>
         </div>
       </div>
       <style jsx>{`
@@ -33,6 +34,11 @@ export default function Publishers() {
           font-size: 1.75rem;
           font-weight: 400;
           line-height: 1.25;
+        }
+        .content p {
+          max-width: 600px !important;
+          text-align: justify !important;
+          word-wrap: break-word !important;
         }
         .fancy {
           color: #15847d;
