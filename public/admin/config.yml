@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Ivan-Dosev/nextjs-netlify-blog-template3
+  repo: growth-mate/landing
   branch: master
 media_folder: public/images
 public_folder: /images
