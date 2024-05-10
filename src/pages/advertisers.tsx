@@ -13,7 +13,7 @@ export default function Advertisers() {
       <div className="container">
         <div>
           <h1>Advertisers</h1>
-          <p>Here is some information about the role of advertisers within our platform and their benefits.</p>
+          <p>By understanding users' investments and interests through blockchain analysis, advertisers can deliver precisely tailored advertisements, significantly increasing the likelihood of engagement and conversion. This strategy can lead to a substantial increase in return on investment and optimize ad spend effectiveness. </p>
         </div>
       </div>
       <style jsx>{`

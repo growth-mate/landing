@@ -13,7 +13,7 @@ export default function Publishers() {
       <div className="container">
         <div>
           <h1>Publishers</h1>
-          <p>Here is some information about what publishers do and how they contribute to the ecosystem.</p>
+          <p>Publishers benefit from our targeted advertising approach by increasing the value of their ad space. More relevant ads boost interaction rates and allow higher premiums, improving both user retention and the overall attractiveness of their platforms to advertisers.</p>
         </div>
       </div>
       <style jsx>{`
