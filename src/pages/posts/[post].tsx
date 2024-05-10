@@ -23,6 +23,8 @@ export type Props = {
   source: MdxRemote.Source;
 };
 
+MdxRemote
+
 const components = { InstagramEmbed, YouTube, TwitterTweetEmbed };
 const slugToPostContent = (postContents => {
   let hash = {}
