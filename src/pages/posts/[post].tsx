@@ -23,8 +23,6 @@ export type Props = {
   source: MdxRemote.Source;
 };
 
-MdxRemote
-
 const components = { InstagramEmbed, YouTube, TwitterTweetEmbed };
 const slugToPostContent = (postContents => {
   let hash = {}
@@ -41,6 +39,7 @@ export default function Post({
   description = "",
   source,
 }: Props) {
+  // @ts-ignore
   const content = hydrate(source, { components })
   return (
     <PostLayout
@@ -70,6 +69,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { content, data } = matter(source, {
     engines: { yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object }
   });
+  // @ts-ignore
   const mdxSource = await renderToString(content, { components, scope: data });
   return {
     props: {
