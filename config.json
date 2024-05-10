@@ -1,5 +1,5 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
+  "base_url": "https://growthmate.netlify.app",
   "site_title": "GrowthMate",
   "site_description": "GrowthMate",
   "site_keywords": [
@@ -13,5 +13,5 @@
   ],
   "posts_per_page": 5,
   "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "github_account": "growth-mate"
 }
