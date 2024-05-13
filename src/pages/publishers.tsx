@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Link from 'next/link'; 
 
 export default function Publishers() {
   return (
@@ -15,6 +16,7 @@ export default function Publishers() {
           <h1>Publishers</h1>
           <p>Publishers benefit from our targeted advertising approach by increasing the value of their ad space. 
           <br/> More relevant ads boost interaction rates and allow higher premiums, improving both user retention <br/> and the overall attractiveness of their platforms to advertisers.</p>
+          <Link href="/" legacyBehavior><a className="launch-button">Publisher login (soon)</a></Link>
         </div>
       </div>
       <style jsx>{`
@@ -42,6 +44,25 @@ export default function Publishers() {
         }
         .fancy {
           color: #15847d;
+        }
+        .launch-button {
+          display: inline-block;
+          margin: 20px auto;
+          padding: 12px 18px;
+          border: 3px solid black;
+          border-radius: 10px;
+          color: black;
+          background-color: white;
+          text-align: center;
+          cursor: pointer;
+          font-size: 1rem;
+          font-weight: bold;
+          text-decoration: none;
+          width: auto; 
+          max-width: 250px;
+        }
+        .launch-button:hover {
+          background-color: #f8f8f8;
         }
         .handle {
           display: inline-block;

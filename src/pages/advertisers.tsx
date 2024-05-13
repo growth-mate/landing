@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Link from 'next/link'; 
 
 export default function Advertisers() {
   return (
@@ -14,6 +15,7 @@ export default function Advertisers() {
         <div>
           <h1>Advertisers</h1>
           <p>By understanding users' investments and interests through blockchain analysis, advertisers can <br/> deliver precisely tailored advertisements, significantly increasing the likelihood of engagement <br/> and conversion. This strategy can lead to a substantial increase in return on investment and <br/> optimize ad spend effectiveness. </p>
+          <Link href="/" legacyBehavior><a className="launch-button">Advertiser login (soon)</a></Link>
         </div>
       </div>
       <style jsx>{`
@@ -37,6 +39,25 @@ export default function Advertisers() {
         .fancy {
           color: #15847d;
         }
+        .launch-button {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 12px 18px;
+            border: 3px solid black;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-align: center;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            text-decoration: none;
+            width: auto; 
+            max-width: 250px;
+          }
+          .launch-button:hover {
+            background-color: #f8f8f8;
+          }
         .handle {
           display: inline-block;
           margin-top: 0.275em;
