@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import config from "../lib/config";
 import Link from 'next/link'; 
 
 export default function Index() {
@@ -16,9 +17,9 @@ export default function Index() {
           <h1>
             Hi, We're GrowthMate<span className="fancy">.</span>
           </h1>
-          <span className="handle">@GrowthMate</span>
+          <span className="handle">{config.twitter_account}</span>
           <h2>We connect Web3 projects with the right users.</h2>
-          <Link href="/" legacyBehavior><a className="launch-button">Launch App (comming soon)</a></Link>
+          <Link href="https://app.growthmate.xyz" legacyBehavior><a className="launch-button">Launch App</a></Link>
           <SocialList />
         </div>
       </div>

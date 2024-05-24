@@ -31,11 +31,6 @@ export default function Navigation() {
           </Link>
           </li>
           <li>
-          <Link href="mailto:contact@growthmate.xyz" legacyBehavior>
-          <a>contact us</a>
-          </Link>
-          </li>
-          <li>
           <Link href="/posts" legacyBehavior>
             <a
               className={

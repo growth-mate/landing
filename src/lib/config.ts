@@ -8,6 +8,7 @@ type Config = {
   readonly posts_per_page: number;
   readonly twitter_account: string;
   readonly github_account: string;
+  readonly email_account: string;
 };
 
 export default config as Config;
