@@ -1377,6 +1377,11 @@
   resolved "https://registry.npmjs.org/@mdx-js/util/-/util-1.6.22.tgz"
   integrity sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==
 
+"@netlify/plugin-nextjs@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.npmjs.org/@netlify/plugin-nextjs/-/plugin-nextjs-5.3.1.tgz"
+  integrity sha512-pYY8FJ5rXAGFB2QZG5bl3HGBeqSDyqgfUkLsdO8kOEQqZTmobs9BP0faI3RUT63LR2DMHat/IEDIIU9WzsCQvw==
+
 "@next/env@14.2.3":
   version "14.2.3"
   resolved "https://registry.npmjs.org/@next/env/-/env-14.2.3.tgz"

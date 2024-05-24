@@ -3,7 +3,18 @@
   "site_title": "GrowthMate",
   "site_description": "GrowthMate",
   "site_keywords": [
-    "GrowthMate",
+    {
+      "keyword": "GrowthMate"
+    },
+    {
+      "keyword": "Web3"
+    },
+    {
+      "keyword": "Ad"
+    },
+    {
+      "keyword": "Blockchain"
+    },
     {
       "keyword": "Netlify"
     },
