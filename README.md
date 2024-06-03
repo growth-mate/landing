@@ -42,6 +42,12 @@ and run the following command:
 
 ```
 npx create-next-app your-blog --example "https://github.com/wutali/nextjs-netlify-blog-template"
+
+```
+## Start website
+
+```
+npm run dev
 ```
 
 After that, set up your project as following the Netlify blog:

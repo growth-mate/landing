@@ -19,7 +19,7 @@ export default function Index() {
           </h1>
           <span className="handle">{config.twitter_account}</span>
           <h2>We connect Web3 projects with the right users.</h2>
-          <Link href="https://app.growthmate.xyz" legacyBehavior><a className="launch-button">Launch App</a></Link>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><div className="launch-button">Joing our waiting list</div></a>
           <SocialList />
         </div>
       </div>
