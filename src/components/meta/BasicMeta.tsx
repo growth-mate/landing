@@ -8,6 +8,7 @@ type Props = {
   author?: string;
   url: string;
 };
+
 export default function BasicMeta({
   title,
   description,
@@ -37,7 +38,13 @@ export default function BasicMeta({
       <link
         rel="icon"
         type="image/svg+xml"
-        href="/growthmate.svg"
+        href="/blogo.svg"
+      />
+      <link
+        rel="icon"
+        type="image/svg+xml"
+        href="/wlogo.svg"
+        media="(prefers-color-scheme: dark)"
       />
     </Head>
   );

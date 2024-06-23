@@ -3,7 +3,7 @@
   "name": "GrowthMate",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "wlogo.png",
       "type": "image/png",
       "sizes": "192x192"
     }
