@@ -14,9 +14,12 @@ export default function Publishers() {
       <div className="container">
         <div>
           <h1>Publishers</h1>
-          <p>Publishers benefit from our targeted advertising approach by increasing the value of their ad space. 
-          <br/> More relevant ads boost interaction rates and allow higher premiums, improving both user retention <br/> and the overall attractiveness of their platforms to advertisers.</p>
-          <Link href="/" legacyBehavior><a className="launch-button">Publisher login (soon)</a></Link>
+          <p className="custom-size">Our targeted advertising approach can benefit you by increasing your ad space value. 
+          By showing more relevant ads, you will achieve higher interaction rates, therefore earn higher premiums.
+          That will improve both user retention and overall attractiveness of your platforms to more advertisers.
+          Each ad campaign is also carefully reviewed by us to deliver only high quality content presented to your users.
+          </p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><div className="launch-button">Join our waiting list</div></a>
         </div>
       </div>
       <style jsx>{`
@@ -41,6 +44,13 @@ export default function Publishers() {
           max-width: 600px !important;
           text-align: justify !important;
           word-wrap: break-word !important;
+        }
+        .custom-size {
+          font-size: 1.2rem; 
+          line-height: 1.5;
+          max-width: 700px;
+          text-align: justify;
+          word-wrap: break-word;
         }
         .fancy {
           color: #15847d;

@@ -13,9 +13,11 @@ export default function About() {
       <div className="container">
         <div>
           <h1>About</h1>
-          <p>Our goal is to redefine the paradigm of digital advertising within the Web3 ecosystem. <br/> 
-             We have developed an algorithm that can analyze transaction histories and asset holdings <br/> 
-             to serve ads that closely match users' current investments and interests.</p>
+          <p className="custom-size">  We aspire to be Google AdSense for Web3. <br/>
+              We offer hyper-targeted ads tailored to the user's transaction history.<br/>
+              This increases Return on Ad Spend (ROAS) for advertisers, which in turn results in higher earnings for publishers.<br/>
+              To achieve that, our recommendation algorithm makes use of various process mining and ML techniques for predicting user behavior.<br/>
+            </p>
         </div>
       </div>
       <style jsx>{`
@@ -35,6 +37,13 @@ export default function About() {
           font-size: 1.75rem;
           font-weight: 400;
           line-height: 1.25;
+        }
+        .custom-size {
+          font-size: 1.2rem; 
+          line-height: 1.5;
+          max-width: 700px;
+          text-align: justify;
+          word-wrap: break-word;
         }
         .fancy {
           color: #15847d;
