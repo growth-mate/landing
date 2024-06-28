@@ -19,7 +19,7 @@ export default function Publishers() {
           That will improve both user retention and overall attractiveness of your platforms to more advertisers.
           Each ad campaign is also carefully reviewed by us to deliver only high quality content presented to your users.
           </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><div className="launch-button">Join our waiting list</div></a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><div className="launch-button">Join waitlist</div></a>
         </div>
       </div>
       <style jsx>{`

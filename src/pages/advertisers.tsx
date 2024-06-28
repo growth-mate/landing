@@ -18,7 +18,7 @@ export default function Advertisers() {
               Our solution will increase your return on investment and boost your ad effectiveness.<br/>
               Launch your campaign in minutes and track your analytics on our user-friendly dashboard.<br/>
          </p>
-         <a href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><div className="launch-button">Join our waiting list</div></a>
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><div className="launch-button">Join waitlist</div></a>
         </div>
       </div>
       <style jsx>{`
