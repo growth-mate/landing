@@ -14,8 +14,11 @@ export default function Advertisers() {
       <div className="container">
         <div>
           <h1>Advertisers</h1>
-          <p>By understanding users' investments and interests through blockchain analysis, advertisers can <br/> deliver precisely tailored advertisements, significantly increasing the likelihood of engagement <br/> and conversion. This strategy can lead to a substantial increase in return on investment and <br/> optimize ad spend effectiveness. </p>
-          <Link href="/" legacyBehavior><a className="launch-button">Advertiser login (soon)</a></Link>
+          <p className="custom-size"> Enhance your conversion rate by delivering precisely tailored advertisements.<br/>
+              Our solution will increase your return on investment and boost your ad effectiveness.<br/>
+              Launch your campaign in minutes and track your analytics on our user-friendly dashboard.<br/>
+         </p>
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><div className="launch-button">Join our waiting list</div></a>
         </div>
       </div>
       <style jsx>{`
@@ -35,6 +38,13 @@ export default function Advertisers() {
           font-size: 1.75rem;
           font-weight: 400;
           line-height: 1.25;
+        }
+        .custom-size {
+          font-size: 1.2rem; 
+          line-height: 1.5;
+          max-width: 7000px;
+          text-align: justify;
+          word-wrap: break-word;
         }
         .fancy {
           color: #15847d;
