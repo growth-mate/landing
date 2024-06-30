@@ -21,6 +21,11 @@ export default function Layout({ children }: Props) {
         <Navigation />
       </nav>
       <main>{children}</main>
+      <div className="footer">
+        <a href="https://cdn.growthmate.xyz/tos.html">Terms Of Service</a>
+        {" | "}
+        <a href="https://cdn.growthmate.xyz/privacy-policy.html">Privacy Policy</a>
+      </div>
       <style jsx>
         {`
           .root {
@@ -41,6 +46,14 @@ export default function Layout({ children }: Props) {
             main {
               flex: 1 0 auto;
             }
+          }
+          .footer {
+            padding: 0.5rem;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            text-align: right;
+            color: #9b9b9b;
           }
         `}
       </style>
