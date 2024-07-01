@@ -4,7 +4,7 @@ import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
 import config from "../lib/config";
-import Link from 'next/link'; 
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -19,7 +19,13 @@ export default function Index() {
           </h1>
           <span className="handle">{config.twitter_account}</span>
           <h2>We connect Web3 projects with the right users.</h2>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><div className="launch-button">Join waitlist</div></a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="launch-button">Join Our Waitlist</div>
+          </a>
           <SocialList />
         </div>
       </div>
@@ -54,20 +60,20 @@ export default function Index() {
           display: inline-block;
           margin: 20px auto;
           padding: 12px 18px;
-          border: 3px solid black;
           border-radius: 10px;
-          color: black;
-          background-color: white;
+          color: white;
+          background-color: #15847d;
           text-align: center;
           cursor: pointer;
           font-size: 1rem;
           font-weight: bold;
           text-decoration: none;
-          width: auto; 
+          width: auto;
           max-width: 250px;
         }
         .launch-button:hover {
           background-color: #f8f8f8;
+          color: black;
         }
 
         @media (min-width: 769px) {

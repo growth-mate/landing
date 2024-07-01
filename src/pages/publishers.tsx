@@ -3,7 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
-import Link from 'next/link'; 
+import Link from "next/link";
 
 export default function Publishers() {
   return (
@@ -14,12 +14,22 @@ export default function Publishers() {
       <div className="container">
         <div>
           <h1>Publishers</h1>
-          <p className="custom-size">Our targeted advertising approach can benefit you by increasing your ad space value. 
-          By showing more relevant ads, you will achieve higher interaction rates, therefore earn higher premiums.
-          That will improve both user retention and overall attractiveness of your platforms to more advertisers.
-          Each ad campaign is also carefully reviewed by us to deliver only high quality content presented to your users.
+          <p className="custom-size">
+            Our targeted advertising approach can benefit you by increasing your
+            ad space value. By showing more relevant ads, you will achieve
+            higher interaction rates, therefore earn higher premiums. That will
+            improve both user retention and overall attractiveness of your
+            platforms to more advertisers. Each ad campaign is also carefully
+            reviewed by us to deliver only high quality content presented to
+            your users.
           </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><div className="launch-button">Join waitlist</div></a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="launch-button">Join Our Waitlist</div>
+          </a>
         </div>
       </div>
       <style jsx>{`
@@ -46,7 +56,7 @@ export default function Publishers() {
           word-wrap: break-word !important;
         }
         .custom-size {
-          font-size: 1.2rem; 
+          font-size: 1.2rem;
           line-height: 1.5;
           max-width: 700px;
           text-align: justify;
@@ -59,20 +69,20 @@ export default function Publishers() {
           display: inline-block;
           margin: 20px auto;
           padding: 12px 18px;
-          border: 3px solid black;
           border-radius: 10px;
-          color: black;
-          background-color: white;
+          color: white;
+          background-color: #15847d;
           text-align: center;
           cursor: pointer;
           font-size: 1rem;
           font-weight: bold;
           text-decoration: none;
-          width: auto; 
+          width: auto;
           max-width: 250px;
         }
         .launch-button:hover {
           background-color: #f8f8f8;
+          color: black;
         }
         .handle {
           display: inline-block;
