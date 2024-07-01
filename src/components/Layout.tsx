@@ -16,15 +16,35 @@ export default function Layout({ children }: Props) {
         <script src="https://cdn.amplitude.com/libs/analytics-browser-2.7.4-min.js.gz"></script>
         <script src="https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.4.1-min.js.gz"></script>
         <script src="https://cdn.amplitude.com/libs/plugin-autocapture-browser-0.9.0-min.js.gz"></script>
+        <script
+          type="text/javascript"
+          src="https://app.termly.io/resource-blocker/6f560946-f930-4256-b31d-40426d4ff888?autoBlock=off"
+        ></script>
       </Head>
       <nav>
         <Navigation />
       </nav>
       <main>{children}</main>
       <div className="footer">
-        <a href="https://cdn.growthmate.xyz/tos.html">Terms Of Service</a>
+        <a href="#" className="termly-display-preferences">
+          Consent Preferences
+        </a>
         {" | "}
-        <a href="https://cdn.growthmate.xyz/privacy-policy.html">Privacy Policy</a>
+        <a
+          href="https://cdn.growthmate.xyz/tos.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Terms Of Service
+        </a>
+        {" | "}
+        <a
+          href="https://cdn.growthmate.xyz/privacy-policy.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Privacy Policy
+        </a>
       </div>
       <style jsx>
         {`
@@ -54,6 +74,7 @@ export default function Layout({ children }: Props) {
             right: 0;
             text-align: right;
             color: #9b9b9b;
+            font-size: 10pt;
           }
         `}
       </style>
