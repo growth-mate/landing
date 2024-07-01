@@ -79,6 +79,7 @@ export default function Publishers() {
           text-decoration: none;
           width: auto;
           max-width: 250px;
+          animation: wiggle 5s infinite;
         }
         .launch-button:hover {
           background-color: #f8f8f8;
@@ -89,6 +90,15 @@ export default function Publishers() {
           margin-top: 0.275em;
           color: #9b9b9b;
           letter-spacing: 0.05em;
+        }
+
+        @keyframes wiggle {
+            0% { transform: rotate(0deg); }
+            10% { transform: rotate(0deg); }
+            12% { transform: rotate(5deg); }
+            14% { transform: rotate(-5deg); }
+            16% { transform: rotate(0deg); }
+            100% { transform: rotate(0deg); }
         }
 
         @media (min-width: 769px) {
