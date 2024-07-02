@@ -22,8 +22,7 @@ export default function Advertisers() {
             Our solution will increase your returns and boost your
             ad effectiveness.
             <br />
-            Launch your campaign in minutes and track your analytics on our
-            user-friendly dashboard.
+            Launch your campaign in minutes and track your analytics on our dashboard.
             <br />
           </p>
           <a
