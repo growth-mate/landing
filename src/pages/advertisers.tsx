@@ -19,7 +19,7 @@ export default function Advertisers() {
             Enhance your conversion rate by delivering precisely tailored
             advertisements.
             <br />
-            Our solution will increase your return on investment and boost your
+            Our solution will increase your returns and boost your
             ad effectiveness.
             <br />
             Launch your campaign in minutes and track your analytics on our
