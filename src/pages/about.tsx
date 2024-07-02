@@ -46,7 +46,7 @@ export default function About() {
           word-wrap: break-word;
         }
         .fancy {
-          color: #15847d;
+          color: #8cb88c;
         }
         .handle {
           display: inline-block;

@@ -15,7 +15,7 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're GrowthMate<span className="fancy">.</span>
+            Hi, We're <span className="fancy">GrowthMate</span>.
           </h1>
           <span className="handle">{config.twitter_account}</span>
           <h2>We connect Web3 projects with the right users.</h2>
@@ -48,7 +48,7 @@ export default function Index() {
           line-height: 1.25;
         }
         .fancy {
-          color: #15847d;
+          color: #8cb88c;
         }
         .handle {
           display: inline-block;
@@ -62,7 +62,8 @@ export default function Index() {
           padding: 12px 18px;
           border-radius: 10px;
           color: white;
-          background-color: #15847d;
+          background-color: #8cb88c;
+          font-size: 20px;
           text-align: center;
           cursor: pointer;
           font-size: 1rem;

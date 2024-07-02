@@ -63,7 +63,7 @@ export default function Publishers() {
           word-wrap: break-word;
         }
         .fancy {
-          color: #15847d;
+          color: #8cb88c;
         }
         .launch-button {
           display: inline-block;
@@ -71,7 +71,6 @@ export default function Publishers() {
           padding: 12px 18px;
           border-radius: 10px;
           color: white;
-          background-color: #15847d;
           text-align: center;
           cursor: pointer;
           font-size: 1rem;
@@ -80,6 +79,8 @@ export default function Publishers() {
           width: auto;
           max-width: 250px;
           animation: wiggle 5s infinite;
+          background-color: #8cb88c;
+          font-size: 20px;
         }
         .launch-button:hover {
           background-color: #f8f8f8;
