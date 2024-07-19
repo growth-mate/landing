@@ -13,7 +13,7 @@ export default function About() {
       <div className="container">
         <div>
           <h1>About</h1>
-          <p className="custom-size">  We aspire to be Google AdSense for Web3.
+          <p className="custom-size">
               We offer hyper-targeted ads tailored to the user's transaction history.
               This increases Return on Ad Spend (ROAS) for advertisers, which in turn results in higher earnings for publishers.
               To achieve that, our recommendation algorithm makes use of various process mining and ML techniques for predicting user behavior.

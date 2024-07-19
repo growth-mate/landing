@@ -18,7 +18,7 @@ export default function Index() {
             Hi, We're <span className="fancy">GrowthMate</span>.
           </h1>
           <span className="handle">{config.twitter_account}</span>
-          <h2>We connect Web3 projects with the right users.</h2>
+          <h2>We grow your project with hyper-targeted ads!</h2>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScMhfRx52E-J_-8XUyb3RXqLthav1Zlgm3HU_H9yfOD68BrXQ/viewform?usp=sf_link"
             target="_blank"
